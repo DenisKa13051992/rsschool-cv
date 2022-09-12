@@ -8,7 +8,20 @@
 I want to learn Front-End Development in **RSSchool**!  
   
 **Code example:**  
-```
+```function pigIt(str){
+  //Code here
+  let arr = [];
+  arr = str.split(' ');
+  let ar = [];
+  ar = arr;
+  console.log(arr)
+let array = []
+for (i=0; i<arr.length; i++){
+  if (arr[i] == '!' || arr[i] == '?') {array[i] = arr[i]} else {
+array[i] = arr[i].slice(1,arr[i].length) + ar[i][0] + 'ay'; console.log(arr);}
+}
+  return array.join(' ')
+  }; pigIt('Pig latin is cool')
 ```  
   
 **Work experience:**  
